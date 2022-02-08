@@ -24,3 +24,15 @@ public class Bank {
 
     }
 }
+/** output
+ *
+ * Enter amount to deposite
+ * 0
+ * InvalidAmountException Entered amount is invalid
+ * InvalidAmountException raised
+ * Enter amount to withdraw
+ * 500
+ * InsufficientBalanceException Insufficient balance
+ * InsufficientBalanceException raised
+ *
+ * Process finished with exit code 0*/
