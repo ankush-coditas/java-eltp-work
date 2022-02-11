@@ -20,3 +20,12 @@ public class Question4  extends Thread {
     }
 
 }
+/** Output
+ * 1
+ * 3
+ * 5
+ * 7
+ * 9
+ *
+ * Process finished with exit code 0
+ */

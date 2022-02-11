@@ -14,3 +14,7 @@ public class Question1 extends Thread {
 
     }
 }
+/**
+ * No we can not start again because the thread is starting at once if we try to restart then it is showing the
+ * execption
+ */

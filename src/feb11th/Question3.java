@@ -27,3 +27,14 @@ public class Question3 {
 
     }
 }
+/**Output
+ *T2
+ * 11
+ * RUNNABLE
+ * class java.lang.Thread
+ * IN THREAD
+ * IN THREAD
+ * IN THREAD
+ *
+ * Process finished with exit code 0
+ */
