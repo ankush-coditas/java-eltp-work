@@ -112,6 +112,13 @@ public class ReflectionDemo {
         int modifier3=field1.getModifiers();
         String mod3= Modifier.toString(modifier3);
         System.out.println("Modifier od Field is::"+mod3);
+         // for field[] foreach
+        System.out.println("**************************************");
+        Field[]  fields = obj.getDeclaredFields();
+        for (Field f:fields
+             ) {
+            System.out.println(f);
+        }
     }
 }
 /** Output
