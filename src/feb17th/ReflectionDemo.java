@@ -226,6 +226,8 @@ public class ReflectionDemo {
  * ********************
  * Value of radius is::4
  * Modifier od Field is::public
+ * **************************************
+ * public int feb17th.Circle.radius
  *
  * Process finished with exit code 0
  *
