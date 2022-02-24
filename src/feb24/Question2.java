@@ -12,7 +12,7 @@ public class Question2 {
           //  st.execute("alter table student add gender varchar(20)");
             System.out.println("new coloumn is added gender ");
 
-            ResultSet rs = st.executeQuery("select * from student where year = 3 and pr>70");
+            ResultSet rs = st.executeQuery("select * from student where year = 3 and pr>70");//try to implement it using between or try with mysql logic,IN,Between
             System.out.println("result set "+rs);
             while (rs.next()){
                 System.out.println(rs.getInt(1)+" "+rs.getString(2)+" "+rs.getInt(3)+" "+rs.getInt(4)+" "+" "+rs.getString(5));
